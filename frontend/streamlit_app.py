@@ -1,10 +1,16 @@
 """Streamlit frontend for AI Recruiter Agent with adaptive styling and resilient API connection."""
 
 import os
+import sys
 import time
 from pathlib import Path
 import streamlit as st
 import requests
+
+# Ensure project root is in sys.path for cloud deployment (e.g. Render/Linux)
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 # Local fallback imports if FastAPI backend is ever unreachable
 from app.config import GENERATED_DIR
