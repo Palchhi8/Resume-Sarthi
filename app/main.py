@@ -4,7 +4,7 @@ import logging
 from pathlib import Path
 from fastapi import FastAPI, UploadFile, File, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, RedirectResponse
 
 from app.config import (
     MAX_UPLOAD_SIZE_BYTES,
@@ -50,6 +50,12 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.get("/", include_in_schema=False)
+def root():
+    """Redirect root path to interactive Swagger documentation."""
+    return RedirectResponse(url="/docs")
 
 
 @app.get("/health", tags=["System"])
