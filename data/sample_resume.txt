@@ -1,0 +1,43 @@
+JORDAN AVERY VANCE
+Austin, TX | jordan.vance.dev@techmail.example | linkedin.com/in/jordan-vance-fictional
+
+PROFESSIONAL SUMMARY
+Results-driven Backend and Cloud Software Engineer with proven hands-on experience architecting high-throughput REST APIs, microservices, and distributed cloud systems. Specialized in Python, container orchestration, and AWS cloud deployments. Strong record of improving application latency and streamlining engineering workflows.
+
+TECHNICAL SKILLS
+- Programming Languages: Python, JavaScript, SQL, Bash
+- Frameworks & Libraries: FastAPI, Django, Flask, SQLAlchemy, Pydantic, Pytest
+- Cloud & DevOps: AWS (EC2, S3, RDS, Lambda, CloudWatch), Docker, Kubernetes, GitHub Actions, CI/CD, Linux
+- Databases & Storage: PostgreSQL, Redis, DynamoDB
+- Architecture & Practices: RESTful APIs, Microservices, Event-Driven Systems, Agile / Scrum
+
+WORK EXPERIENCE
+
+Senior Backend Engineer | CloudScale Technologies — Austin, TX
+April 2022 – Present
+- Architected and deployed scalable backend microservices using Python and FastAPI, serving 12M+ monthly API requests with 99.95% uptime.
+- Spearheaded migration of legacy monolithic data ingestors to containerized AWS services (EC2, ECS, S3, RDS), reducing monthly infrastructure costs by 22%.
+- Designed automated CI/CD deployment pipelines utilizing Docker and GitHub Actions, cutting release turnaround time from 2 hours to 14 minutes.
+- Implemented asynchronous background task processing and distributed caching using Redis, improving database query response times by 40%.
+- Mentored a cohort of 4 junior and mid-level software engineers through code reviews, system design sessions, and testing best practices.
+
+[Note: Gap period between November 2021 and April 2022]
+
+Software Developer | Apex Enterprise Solutions — Dallas, TX
+June 2019 – November 2021
+- Developed and maintained transactional enterprise web services using Python, Django, and PostgreSQL.
+- Profiled slow database queries and implemented composite indexing strategies, reducing median endpoint latency by 35%.
+- Integrated third-party payment gateways and webhook ingestion systems handling over $4M in quarterly transaction volume.
+- Authored comprehensive unit and integration test suites achieving 88% test coverage using Pytest.
+
+Technical Specialist / Solutions Consultant | Various Clients
+January 2019 – May 2019
+- Assisted small business clients with general software needs, custom scripting, and operational IT troubleshooting.
+- Advised local business stakeholders on basic technology selections and digital workflow improvements.
+
+EDUCATION
+
+Bachelor of Science in Computer Science
+University of Texas at Austin, Austin, TX
+Graduation: May 2018
+Relevant Coursework: Distributed Systems, Operating Systems, Database Management, Algorithms & Data Structures
