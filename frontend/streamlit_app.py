@@ -19,7 +19,7 @@ from app.workflow import (
 from app.email_service import dispatch_evaluation
 
 # Backend URL configuration
-API_URL = os.getenv("API_URL", "http://localhost:8000").rstrip("/")
+API_URL = (os.getenv("BACKEND_URL") or os.getenv("API_URL") or "http://localhost:8000").rstrip("/")
 
 # Page setup
 st.set_page_config(

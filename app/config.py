@@ -23,7 +23,7 @@ OPENAI_MODEL: str = os.getenv("OPENAI_MODEL", "gpt-4o-mini").strip()
 # Server Configuration
 BACKEND_HOST: str = os.getenv("BACKEND_HOST", "0.0.0.0").strip()
 BACKEND_PORT: int = int(os.getenv("BACKEND_PORT", "8000"))
-API_URL: str = os.getenv("API_URL", f"http://localhost:{BACKEND_PORT}").rstrip("/")
+API_URL: str = (os.getenv("BACKEND_URL") or os.getenv("API_URL", f"http://localhost:{BACKEND_PORT}")).rstrip("/")
 
 # HR Dispatch Configuration
 HR_EMAIL: str = os.getenv("HR_EMAIL", "hr-admissions@company.mock").strip()
